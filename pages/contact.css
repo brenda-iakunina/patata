@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  border: 4px solid rgb(114, 68, 68);
+  border-radius: 20px;
+  background-color: rgb(218, 229, 196);
+  padding: 20px;
+  text-align: center;
+}
+.top li {
+  /* border: 2px solid blue; */
+  display: inline;
+  padding: 15px;
+}
+
+.top li a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.top li a:visited {
+  color: rgb(114, 68, 68);
+}
+
+.top li a:active {
+  box-shadow: 5px 5px 15px rgb(189, 186, 186);
+}
+
+.top li a:hover {
+  background-color: rgba(66, 66, 43, 0.582);
+  color: antiquewhite;
+}
+/*  */
+.everything {
+  /* border: 4px solid black; */
+  /* border-radius: 10px; */
+  height: 100vh;
+  text-align: center;
+  /* background-color: rgb(187, 181, 181); */
+  background-image: url(../img/istockphoto-858311616-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding: 150px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 800;
+  color: rgb(54, 45, 45);
+}
+
+.telephon {
+  border: 4px solid rgb(114, 68, 68);
+  border-radius: 10px 10px;
+  font-size: 40px;
+  font-weight: 700;
+  width: fit-content;
+  padding: 10px;
+  background-color: rgb(234, 228, 240);
+  color: rgb(54, 45, 45);
+}
+
+footer {
+  text-align: center;
+  border: 2px solid rgb(114, 68, 68);
+  border-radius: 10px;
+  background-color: rgb(234, 228, 240);
+}
+
+footer a {
+  text-decoration: none;
+  padding: 5px;
+  padding: 10px;
+}
+
+ion-icon {
+  font-size: 33px;
+  color: rgb(114, 68, 68);
+  margin-top: 29px;
+}
